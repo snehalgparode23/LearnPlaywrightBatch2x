@@ -10,6 +10,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_02_Javascript_Concepts` | Core JS concepts |
 | `chapter_03_identifier_Literals` | Identifiers, naming conventions, comments, and VS Code shortcuts |
 | `chapter_04_JavaScript_Concepts` | `let` vs `var` vs `const`, functions, hoisting, scope |
+| `chapter_05_Literal` | Literals: numbers, strings, null, undefined, template literals, backticks |
 
 ## Topics Covered
 
@@ -33,6 +34,14 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - Hoisting behavior
 - Block scope vs function scope
 
+### Chapter 05 – Literals
+- **Number literals** – integers, floats, binary, octal, hex, exponential, BigInt
+- **Special numbers** – `Infinity`, `-Infinity`, `NaN`
+- **String literals** – single quotes, double quotes, backticks (template literals)
+- **null vs undefined** – differences and when to use each
+- **Template literals** – multiline strings, variable interpolation `${var}`
+- **Backtick vs single/double** – why backticks are the "superhero" version
+
 ## Getting Started
 
 1. Clone the repository
@@ -41,6 +50,8 @@ A learning project for Playwright automation testing with JavaScript fundamental
 
 ```bash
 node chapter_01_Basics/01_Basics.js
+node chapter_05_Literal/26_Literal_Number_all.js
+node chapter_05_Literal/29_Backtick_single_double.js
 ```
 
 ---
