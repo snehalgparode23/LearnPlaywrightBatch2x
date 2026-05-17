@@ -11,6 +11,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_03_identifier_Literals` | Identifiers, naming conventions, comments, and VS Code shortcuts |
 | `chapter_04_JavaScript_Concepts` | `let` vs `var` vs `const`, functions, hoisting, scope |
 | `chapter_05_Literal` | Literals: numbers, strings, null, undefined, template literals, backticks |
+| `chapter_06_Operators` | All JavaScript operators: arithmetic, comparison, logical, ternary, bitwise |
 
 ## Topics Covered
 
@@ -42,6 +43,17 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Template literals** – multiline strings, variable interpolation `${var}`
 - **Backtick vs single/double** – why backticks are the "superhero" version
 
+### Chapter 06 – Operators
+- **Arithmetic operators** – `+`, `-`, `*`, `/`, `%`, `**`
+- **Comparison operators** – `==`, `!=`, `===`, `!==`, `>`, `<`, `>=`, `<=`
+- **Strict vs loose equality** – `===` vs `==` with examples
+- **Logical operators** – `&&`, `||`, `!`
+- **String concatenation** – `+` with strings
+- **Ternary operator** – `condition ? true : false`
+- **Type operators** – `typeof`, `instanceof`
+- **Increment / Decrement** – `++`, `--`
+- **Nullish coalescing** – `??`
+
 ## Getting Started
 
 1. Clone the repository
@@ -52,6 +64,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 node chapter_01_Basics/01_Basics.js
 node chapter_05_Literal/26_Literal_Number_all.js
 node chapter_05_Literal/29_Backtick_single_double.js
+node chapter_06_Operators/30_Operators.js
 ```
 
 ---
