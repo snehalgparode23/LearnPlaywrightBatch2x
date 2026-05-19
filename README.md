@@ -51,8 +51,10 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **String concatenation** – `+` with strings
 - **Ternary operator** – `condition ? true : false`
 - **Type operators** – `typeof`, `instanceof`
-- **Increment / Decrement** – `++`, `--`
+- **Increment / Decrement** – `++`, `--` (pre and post)
 - **Nullish coalescing** – `??`
+- **Post-increment behavior** – tricky interview questions
+- **Advanced operator concepts** – complex expressions
 
 ## Getting Started
 
