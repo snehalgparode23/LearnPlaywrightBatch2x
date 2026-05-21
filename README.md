@@ -12,6 +12,9 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_04_JavaScript_Concepts` | `let` vs `var` vs `const`, functions, hoisting, scope |
 | `chapter_05_Literal` | Literals: numbers, strings, null, undefined, template literals, backticks |
 | `chapter_06_Operators` | All JavaScript operators: arithmetic, comparison, logical, ternary, bitwise |
+| `chapter_07_If_Else` | Conditional statements: if, else if, else, real-world examples, interview questions |
+| `chapter_08_Switch_Statement` | Switch statements, cases, default, grouping, IQ questions |
+| `chapter_09_UserInput` | User input handling: readline, prompt-sync, Node.js input |
 
 ## Topics Covered
 
@@ -56,6 +59,27 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Post-increment behavior** – tricky interview questions
 - **Advanced operator concepts** – complex expressions
 
+### Chapter 07 – If Else
+- **Basic if/else** – conditional branching
+- **else if** – multiple conditions
+- **Real-world examples** – practical use cases
+- **API if/else** – handling API responses
+- **Interview questions** – even/odd, grade calculator, leap year
+- **Advance tasks** – complex conditional logic
+
+### Chapter 08 – Switch Statement
+- **Basic switch** – case matching
+- **No break** – fall-through behavior
+- **Default case** – fallback handling
+- **Real-time examples** – practical switch usage
+- **Grouping cases** – multiple cases same result
+- **Interview questions** – tricky switch scenarios
+
+### Chapter 09 – User Input
+- **User input basics** – reading from command line
+- **Node readline** – `readline` module usage
+- **Prompt sync** – synchronous user prompts
+
 ## Getting Started
 
 1. Clone the repository
@@ -67,6 +91,9 @@ node chapter_01_Basics/01_Basics.js
 node chapter_05_Literal/26_Literal_Number_all.js
 node chapter_05_Literal/29_Backtick_single_double.js
 node chapter_06_Operators/30_Operators.js
+node chapter_07_If_Else/48_If_Else.js
+node chapter_08_Switch_Statement/59_Switch.js
+node chapter_09_UserInput/68_User_Input.js
 ```
 
 ---
