@@ -16,6 +16,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_08_Switch_Statement` | Switch statements, cases, default, grouping, IQ questions |
 | `chapter_09_UserInput` | User input handling: readline, prompt-sync, Node.js input |
 | `chapter_10_Loops` | Loops: for, while, do-while, for...of, for...in, interview questions |
+| `chapter_11_Arrays` | Arrays: creation, access, methods, searching, iteration, transformation |
 
 ## Topics Covered
 
@@ -88,6 +89,16 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **While loop** – condition-based looping
 - **Do...while loop** – execute at least once before checking condition
 - **Interview questions** – tricky loop scenarios and IQ problems
+- **Tasks** – Triangle Classifier, FizzBuzz (`Task_22_May.js`)
+
+### Chapter 11 – Arrays
+- **Creating arrays** – array literals, `new Array()`, `Array.of()`, `Array.from()`
+- **Accessing elements** – index access, `.at()` for negative indexing
+- **Adding / removing elements** – `push`, `pop`, `shift`, `unshift`, `splice`
+- **Real-world examples** – browser list manipulation, test result arrays
+- **Searching** – `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`
+- **Iteration** – `for`, `for...of`, `forEach`, `for...in`, `.entries()`
+- **Transformation** – `map`, `filter`, `reduce`, `flat`
 
 ## Getting Started
 
@@ -104,6 +115,10 @@ node chapter_07_If_Else/48_If_Else.js
 node chapter_08_Switch_Statement/59_Switch.js
 node chapter_09_UserInput/68_User_Input.js
 node chapter_10_Loops/71_For_loop.js
+node chapter_10_Loops/Task_22_May.js
+node chapter_11_Arrays/83_Arrays.js
+node chapter_11_Arrays/89_Searching.js
+node chapter_11_Arrays/91_Transform_Array.js
 ```
 
 ---
