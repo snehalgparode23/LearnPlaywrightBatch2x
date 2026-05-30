@@ -17,6 +17,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_09_UserInput` | User input handling: readline, prompt-sync, Node.js input |
 | `chapter_10_Loops` | Loops: for, while, do-while, for...of, for...in, interview questions |
 | `chapter_11_Arrays` | Arrays: creation, access, methods, searching, iteration, transformation |
+| `chapter_12_Funtions` | Functions: declaration, types, expressions, arrow functions, template literals |
 
 ## Topics Covered
 
@@ -99,6 +100,17 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Searching** – `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`
 - **Iteration** – `for`, `for...of`, `forEach`, `for...in`, `.entries()`
 - **Transformation** – `map`, `filter`, `reduce`, `flat`
+- **Sorting** – `sort()`, natural vs lexicographic, ascending / descending with comparator
+- **Slicing** – `slice(start, end)`, negative indexing
+- **Combining & joining** – `concat`, spread operator `...`, `join`
+- **Checking arrays** – `Array.isArray`, `every`, `some`
+
+### Chapter 12 – Functions
+- **Function basics** – declaration, definition, calling
+- **Function types** – no param / no return, with param / no return, no param / with return, with param / with return
+- **Function expressions** – assigning functions to variables
+- **Arrow functions** – ES6 concise syntax, implicit returns
+- **Template literals in functions** – using backticks and `${}` in return values
 
 ## Getting Started
 
@@ -119,6 +131,12 @@ node chapter_10_Loops/Task_22_May.js
 node chapter_11_Arrays/83_Arrays.js
 node chapter_11_Arrays/89_Searching.js
 node chapter_11_Arrays/91_Transform_Array.js
+node chapter_11_Arrays/92_Arrays.js
+node chapter_11_Arrays/93_Array_Slicing.js
+node chapter_11_Arrays/94_Concat_array.js
+node chapter_11_Arrays/95_Array_Checking.js
+node chapter_12_Funtions/96_Functions.js
+node chapter_12_Funtions/103_Arrow_Fn.js
 ```
 
 ---
