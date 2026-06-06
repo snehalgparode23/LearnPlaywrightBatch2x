@@ -109,8 +109,17 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Function basics** – declaration, definition, calling
 - **Function types** – no param / no return, with param / no return, no param / with return, with param / with return
 - **Function expressions** – assigning functions to variables
-- **Arrow functions** – ES6 concise syntax, implicit returns
+- **Arrow functions** – ES6 concise syntax, implicit returns, real-world examples (API status validation)
+- **IIFE** – Immediately Invoked Function Expressions
+- **Default parameters** – providing fallback values in function signatures
+- **Rest parameters** – `...args` to collect variable arguments
+- **Spread operator** – expanding arrays into function arguments
+- **Scope in functions** – global scope, local scope, nested / block scope
+- **Closures** – inner functions retaining access to outer variables, counter example, real-world API retry tracker
+- **Higher-order functions** – functions that accept or return other functions
+- **Pure functions** – predictable output with no side effects vs impure functions
 - **Template literals in functions** – using backticks and `${}` in return values
+- **Interview questions** – tricky function scenarios, hoisting behavior with expressions
 
 ## Getting Started
 
@@ -137,6 +146,15 @@ node chapter_11_Arrays/94_Concat_array.js
 node chapter_11_Arrays/95_Array_Checking.js
 node chapter_12_Funtions/96_Functions.js
 node chapter_12_Funtions/103_Arrow_Fn.js
+node chapter_12_Funtions/104_Arrow_Fn_REAL.js
+node chapter_12_Funtions/105_IIFE.js
+node chapter_12_Funtions/106_Default_Param_Fn.js
+node chapter_12_Funtions/108_Rest_Param_Fn.js
+node chapter_12_Funtions/110_Spead_IQ.js
+node chapter_12_Funtions/113_Closure.js
+node chapter_12_Funtions/115_API_REAL_Closure.js
+node chapter_12_Funtions/116_Higher_Order_Fn.js
+node chapter_12_Funtions/117_Pure_Fn.js
 ```
 
 ---
