@@ -18,6 +18,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_10_Loops` | Loops: for, while, do-while, for...of, for...in, interview questions |
 | `chapter_11_Arrays` | Arrays: creation, access, methods, searching, iteration, transformation |
 | `chapter_12_Funtions` | Functions: declaration, types, expressions, arrow functions, template literals |
+| `chapter_13_Strings` | String methods cheat sheet – all common JS string operations with examples |
 
 ## Topics Covered
 
@@ -120,6 +121,18 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Pure functions** – predictable output with no side effects vs impure functions
 - **Template literals in functions** – using backticks and `${}` in return values
 - **Interview questions** – tricky function scenarios, hoisting behavior with expressions
+
+### Chapter 13 – Strings
+- **String cheat sheet** – quick-reference table of all common JavaScript string methods
+- **Accessing characters** – `charAt`, `charCodeAt`, `at`, bracket notation
+- **Searching & checking** – `indexOf`, `lastIndexOf`, `includes`, `startsWith`, `endsWith`, `search`, `match`, `matchAll`
+- **Extracting substrings** – `slice`, `substring`, `substr`, `split`
+- **Modifying case** – `toUpperCase`, `toLowerCase`, `toLocaleUpperCase`, `toLocaleLowerCase`
+- **Trimming & padding** – `trim`, `trimStart`, `trimEnd`, `padStart`, `padEnd`
+- **Replacing content** – `replace`, `replaceAll`
+- **Concatenation & repeating** – `concat`, `repeat`
+- **Unicode & normalization** – `codePointAt`, `fromCodePoint`, `fromCharCode`, `normalize`
+- **Quick reference summary** – categorized method list for fast lookup
 
 ## Getting Started
 
