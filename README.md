@@ -19,6 +19,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_11_Arrays` | Arrays: creation, access, methods, searching, iteration, transformation |
 | `chapter_12_Funtions` | Functions: declaration, types, expressions, arrow functions, template literals |
 | `chapter_13_Strings` | String methods cheat sheet – all common JS string operations with examples |
+| `chapter_14_Objects` | Objects: creation, properties, methods, destructuring, spread, getters/setters |
 
 ## Topics Covered
 
@@ -134,6 +135,18 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Unicode & normalization** – `codePointAt`, `fromCodePoint`, `fromCharCode`, `normalize`
 - **Quick reference summary** – categorized method list for fast lookup
 
+### Chapter 14 – Objects
+- **Object basics** – creation, properties, key-value pairs, JSON format
+- **Object creation methods** – literals, constructors, `Object.create()`
+- **Primitive vs reference types** – how objects are stored and compared
+- **Real-world examples** – practical object usage scenarios
+- **Interview questions** – object comparison, copying, tricky scenarios
+- **Object methods** – functions inside objects, `this` keyword
+- **Destructuring** – extracting properties, renaming variables, default values, nested destructuring
+- **Spread operator** – cloning objects, merging objects
+- **Getters & Setters** – computed properties, `get` / `set` syntax
+- **Advanced concepts** – `let` / `const` with objects, object mutations
+
 ## Getting Started
 
 1. Clone the repository
@@ -168,6 +181,20 @@ node chapter_12_Funtions/113_Closure.js
 node chapter_12_Funtions/115_API_REAL_Closure.js
 node chapter_12_Funtions/116_Higher_Order_Fn.js
 node chapter_12_Funtions/117_Pure_Fn.js
+node chapter_14_Objects/124_Objects.js
+node chapter_14_Objects/125_Object2.js
+node chapter_14_Objects/126_Object_Creations.js
+node chapter_14_Objects/127_Objects_Real.js
+node chapter_14_Objects/128_Primitive_Ref.js
+node chapter_14_Objects/129_Ob_Examples.js
+node chapter_14_Objects/130_IQ.js
+node chapter_14_Objects/131_Object_Fn.js
+node chapter_14_Objects/132_Obj_Decon.js
+node chapter_14_Objects/133_Spead.js
+node chapter_14_Objects/134_Objects_GET_SET_Methods.js
+node chapter_14_Objects/135_IQ.js
+node chapter_14_Objects/136_Obj_REAL.js
+node chapter_14_Objects/137_Let_const_obj.js
 ```
 
 ---
