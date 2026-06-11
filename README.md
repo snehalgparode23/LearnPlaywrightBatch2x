@@ -20,6 +20,8 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_12_Funtions` | Functions: declaration, types, expressions, arrow functions, template literals |
 | `chapter_13_Strings` | String methods cheat sheet – all common JS string operations with examples |
 | `chapter_14_Objects` | Objects: creation, properties, methods, destructuring, spread, getters/setters |
+| `chapter_15_2D_Array` | 2D Arrays: creation, traversal, nested loops, functions, patterns, real-world examples |
+| `chapter_16_Callback` | Callbacks: synchronous, asynchronous, callback hell, Playwright examples, parameters, returns |
 
 ## Topics Covered
 
@@ -147,6 +149,25 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Getters & Setters** – computed properties, `get` / `set` syntax
 - **Advanced concepts** – `let` / `const` with objects, object mutations
 
+### Chapter 15 – 2D Arrays
+- **2D array basics** – grid creation, nested arrays, row-column access
+- **Traversal** – nested `for` loops to iterate over rows and columns
+- **Real-world examples** – student scores, test suite results
+- **Array methods with 2D** – `map`, `reduce`, `filter` on nested arrays
+- **Functions with 2D arrays** – passing and returning 2D arrays
+- **Pattern problems** – right triangle patterns, interview questions
+
+### Chapter 16 – Callbacks
+- **Callback basics** – passing functions as arguments
+- **Anonymous callbacks** – inline function expressions
+- **Arrow callbacks** – concise callback syntax with `=>`
+- **Synchronous callbacks** – immediate execution flow
+- **Asynchronous callbacks** – `setTimeout`, delayed execution, event loop basics
+- **Callback hell** – nested callback chains, readability issues
+- **Playwright callbacks** – real-world testing scenarios with callbacks
+- **Callback parameters** – passing data through callback arguments
+- **Callback returns** – handling return values from callbacks
+
 ## Getting Started
 
 1. Clone the repository
@@ -195,6 +216,22 @@ node chapter_14_Objects/134_Objects_GET_SET_Methods.js
 node chapter_14_Objects/135_IQ.js
 node chapter_14_Objects/136_Obj_REAL.js
 node chapter_14_Objects/137_Let_const_obj.js
+node chapter_15_2D_Array/138_2D_Arrays.js
+node chapter_15_2D_Array/139_2d.js
+node chapter_15_2D_Array/140_REAL.js
+node chapter_15_2D_Array/141_2d_Array_Fn.js
+node chapter_15_2D_Array/142_IQ_Right_Pattern_Py.js
+node chapter_16_Callback/143_Callback.js
+node chapter_16_Callback/144_CB.js
+node chapter_16_Callback/145_CB_Fn.js
+node chapter_16_Callback/146_PW_CB.js
+node chapter_16_Callback/147_JS_CB.js
+node chapter_16_Callback/148_Sync_CB.js
+node chapter_16_Callback/149_Async_CB.js
+node chapter_16_Callback/150_CB_Hell.js
+node chapter_16_Callback/151_CB_Hell_20_Steps.js
+node chapter_16_Callback/152_CB_Parameter.js
+node chapter_16_Callback/153_CB_Return.js
 ```
 
 ---
