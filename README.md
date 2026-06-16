@@ -22,6 +22,8 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_14_Objects` | Objects: creation, properties, methods, destructuring, spread, getters/setters |
 | `chapter_15_2D_Array` | 2D Arrays: creation, traversal, nested loops, functions, patterns, real-world examples |
 | `chapter_16_Callback` | Callbacks: synchronous, asynchronous, callback hell, Playwright examples, parameters, returns |
+| `chapter_17_Promise` | Promises: creation, resolve/reject, real-world API calls, `finally`, `Promise.all`, interview questions |
+| `chapter_18_Async_Await` | Async/await: syntax, error handling, sequential & parallel execution, real-world examples, interview questions |
 
 ## Topics Covered
 
@@ -168,6 +170,23 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Callback parameters** – passing data through callback arguments
 - **Callback returns** – handling return values from callbacks
 
+### Chapter 17 – Promises
+- **Promise basics** – creation with `new Promise`, `resolve`, and `reject`
+- **Real-world API promises** – fetching data using promises
+- **Promise chaining** – `.then()`, `.catch()`, and `.finally()`
+- **`Promise.all`** – running multiple promises in parallel
+- **Playwright promise problems** – practical automation scenarios with promises
+- **Interview questions** – tricky promise scenarios and edge cases
+
+### Chapter 18 – Async/Await
+- **Async/await syntax** – writing asynchronous code that looks synchronous
+- **Error handling** – `try...catch` with async functions
+- **Sequential execution** – awaiting promises one after another
+- **Parallel execution** – `Promise.all` with async/await
+- **Real-world examples** – practical API automation with async/await
+- **Playwright async DOM** – handling asynchronous DOM operations
+- **Interview questions** – common async/await pitfalls and tricky scenarios
+
 ## Getting Started
 
 1. Clone the repository
@@ -232,6 +251,21 @@ node chapter_16_Callback/150_CB_Hell.js
 node chapter_16_Callback/151_CB_Hell_20_Steps.js
 node chapter_16_Callback/152_CB_Parameter.js
 node chapter_16_Callback/153_CB_Return.js
+node chapter_17_Promise/154_Promise.js
+node chapter_17_Promise/155_Promise_REAL_API.js
+node chapter_17_Promise/156_Promise_REAL_API_PART2.js
+node chapter_17_Promise/157_Finally.js
+node chapter_17_Promise/158_Call_Py_Problem.js
+node chapter_17_Promise/159_Promise_ALL.js
+node chapter_17_Promise/160_Promise_IQ.js
+node chapter_18_Async_Await/161_Async.js
+node chapter_18_Async_Await/162_Aysnc_P2.js
+node chapter_18_Async_Await/163_PyODom.js
+node chapter_18_Async_Await/164_Async_Ex.js
+node chapter_18_Async_Await/165_AA_Parallel.js
+node chapter_18_Async_Await/165_AA_Seq.js
+node chapter_18_Async_Await/166_IQ.js
+node chapter_18_Async_Await/167_ACLogin.js
 ```
 
 ---
