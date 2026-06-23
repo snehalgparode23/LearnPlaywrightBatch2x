@@ -24,6 +24,9 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_16_Callback` | Callbacks: synchronous, asynchronous, callback hell, Playwright examples, parameters, returns |
 | `chapter_17_Promise` | Promises: creation, resolve/reject, real-world API calls, `finally`, `Promise.all`, interview questions |
 | `chapter_18_Async_Await` | Async/await: syntax, error handling, sequential & parallel execution, real-world examples, interview questions |
+| `chapter_19_Playwright_Basics` | Playwright basics: TypeScript setup, e2e tests, first specs |
+| `tests/` | Root-level Playwright TypeScript test specs |
+| `e2e/` | Root-level end-to-end Playwright test specs |
 
 ## Topics Covered
 
@@ -187,6 +190,12 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Playwright async DOM** – handling asynchronous DOM operations
 - **Interview questions** – common async/await pitfalls and tricky scenarios
 
+### Chapter 19 – Playwright Basics
+- **TypeScript setup** – installing TypeScript in the Playwright project
+- **Playwright configuration** – `playwright.config.ts` basics
+- **E2E test specs** – writing first Playwright tests in TypeScript
+- **Root-level tests** – `tests/` and `e2e/` directories with `.spec.ts` files
+
 ## Getting Started
 
 1. Clone the repository
@@ -266,6 +275,15 @@ node chapter_18_Async_Await/165_AA_Parallel.js
 node chapter_18_Async_Await/165_AA_Seq.js
 node chapter_18_Async_Await/166_IQ.js
 node chapter_18_Async_Await/167_ACLogin.js
+```
+
+### Running Playwright Tests
+
+```bash
+npx playwright test
+npx playwright test --ui
+npx playwright test tests/example.spec.ts
+npx playwright test e2e/example.spec.ts
 ```
 
 ---

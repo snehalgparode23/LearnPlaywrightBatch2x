@@ -1,0 +1,25 @@
+{
+  "name": "learnplaywritebatch2x",
+  "version": "1.0.0",
+  "description": "A learning project for Playwright automation testing with JavaScript fundamentals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snehalgparode23/LearnPlaywrightBatch2x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/snehalgparode23/LearnPlaywrightBatch2x/issues"
+  },
+  "homepage": "https://github.com/snehalgparode23/LearnPlaywrightBatch2x#readme",
+  "dependencies": {
+    "playwright": "^1.61.0",
+    "typescript": "^6.0.3"
+  }
+}
