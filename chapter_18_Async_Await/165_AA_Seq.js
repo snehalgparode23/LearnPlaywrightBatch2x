@@ -6,7 +6,7 @@
 function apiCall(name) {
     return new Promise(function (resolve) {
         setTimeout(function () {
-            resolve(name, "200 Ok")
+            resolve({ name: name, status: "200 Ok" })
         }, 2000);
     })
 }

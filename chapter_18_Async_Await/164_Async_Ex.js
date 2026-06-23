@@ -8,13 +8,12 @@ getTestResult().then(function (res){
     console.log("Result:", res);
 });
 
-import { test, expect } from "@playwright/test";
+// Additional example: async function with await
+async function runTests() {
+    let test1 = await Promise.resolve("Test 1 Passed");
+    let test2 = await Promise.resolve("Test 2 Passed");
+    console.log(test1);
+    console.log(test2);
+}
 
-test('has title', async ({ page }) => {
-    await page.goto('https://playwright.dev/');
-    // Expect a title "to contain" a substring.
-    await expect(page).toHaveTitle(/Playwright/);
-
-    let r = page.locator();
-
-});
+runTests();

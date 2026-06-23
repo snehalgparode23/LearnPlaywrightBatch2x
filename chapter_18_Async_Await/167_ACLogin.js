@@ -1,20 +1,32 @@
-import { test , expect } from "@playwright/test";
+// Note: This is a plain JS example demonstrating async/await login flow.
+// For actual Playwright tests, use .spec.ts files with proper fixtures.
 
-test('Login with valid credentials', async ({ page }) => {
-    await page.step("Login as standard_user", async () => {
-        log.info("Logging in as standard_user ");
-        await loginPage.loginAs ("standard_user" , "tta_secret");
-    });
+async function login(page, username, password) {
+    console.log("Logging in as " + username);
+    await page.goto("https://example.com/login");
+    await page.fill('#username', username);
+    await page.fill('#password', password);
+    await page.click('#login-button');
+}
 
-    await test.step('Verify login form is no longer shown', async () => {
-        log.info('Asserting login form is hidden after login');
-        await expect(page.locator('[data-test="login-button"]')).toBeHidden();
-    });
-});
+async function verifyLogin(page) {
+    console.log('Asserting login form is hidden after login');
+    let loginButton = await page.$('[data-test="login-button"]');
+    return loginButton === null;
+}
 
-import { test, expect } from '@playwright/test';
+async function runLoginTest() {
+    // Mock page object for demonstration
+    let page = {
+        goto: async (url) => console.log("Navigated to " + url),
+        fill: async (selector, value) => console.log("Filled " + selector + " with " + value),
+        click: async (selector) => console.log("Clicked " + selector),
+        $: async (selector) => null // simulate element not found (hidden)
+    };
 
-test('has title', async ({ page }) => {
-    await page.goto('https://playwright.dev/');
-    await expect(page).toHaveTitle(/Playwright/);
-});
+    await login(page, "standard_user", "tta_secret");
+    let isHidden = await verifyLogin(page);
+    console.log("Login form hidden:", isHidden);
+}
+
+runLoginTest();

@@ -1,12 +1,9 @@
-// When Step 2 depends on Step 1's result, you MUST run them sequentially.
-
-// Ste1 - Step 2
-
+// When steps are independent, you can run them in parallel for better performance.
 
 function apiCall(name) {
     return new Promise(function (resolve) {
         setTimeout(function () {
-            resolve(name, "200 Ok")
+            resolve({ name: name, status: "200 Ok" })
         }, 2000);
     })
 }

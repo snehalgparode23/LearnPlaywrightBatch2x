@@ -4,7 +4,27 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.61.0",
-    "@types/node": "^25.9.3"
+    "@types/node": "^25.9.3",
+    "typescript": "^6.0.3"
   },
-  "scripts": {}
+  "scripts": {},
+  "name": "learnplaywritebatch2x",
+  "version": "1.0.0",
+  "description": "A learning project for Playwright automation testing with JavaScript fundamentals.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snehalgparode23/LearnPlaywrightBatch2x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/snehalgparode23/LearnPlaywrightBatch2x/issues"
+  },
+  "homepage": "https://github.com/snehalgparode23/LearnPlaywrightBatch2x#readme"
 }
