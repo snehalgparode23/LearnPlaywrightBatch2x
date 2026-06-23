@@ -1,0 +1,6 @@
+{
+  "name": "chapter_20_typescript_basics",
+  "version": "1.0.0",
+  "description": "TypeScript basics – exports, imports, and modules",
+  "type": "module"
+}
