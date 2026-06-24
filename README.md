@@ -25,6 +25,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_17_Promise` | Promises: creation, resolve/reject, real-world API calls, `finally`, `Promise.all`, interview questions |
 | `chapter_18_Async_Await` | Async/await: syntax, error handling, sequential & parallel execution, real-world examples, interview questions |
 | `chapter_19_Playwright_Basics` | Playwright basics: TypeScript setup, e2e tests, first specs |
+| `chapter_20_Export_Import` | ES modules: export/import, default vs named exports, classes, objects, static methods |
 | `tests/` | Root-level Playwright TypeScript test specs |
 | `e2e/` | Root-level end-to-end Playwright test specs |
 
@@ -196,6 +197,17 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **E2E test specs** – writing first Playwright tests in TypeScript
 - **Root-level tests** – `tests/` and `e2e/` directories with `.spec.ts` files
 
+### Chapter 20 – Export/Import & Classes/Objects
+- **Named exports** – `export` with exact names, multiple exports per file
+- **Default exports** – `export default`, single main export per file
+- **Import aliases** – renaming imports with `as`
+- **Mixed exports** – combining default and named in one file
+- **Classes** – `class` syntax, constructors, attributes, methods
+- **Objects from classes** – `new` keyword, `this` binding
+- **Private/Public fields** – encapsulation in JavaScript classes
+- **Static methods** – class-level methods and properties
+- **Real-world browser example** – applying OOP to Playwright-style automation
+
 ## Getting Started
 
 1. Clone the repository
@@ -275,6 +287,18 @@ node chapter_18_Async_Await/165_AA_Parallel.js
 node chapter_18_Async_Await/165_AA_Seq.js
 node chapter_18_Async_Await/166_IQ.js
 node chapter_18_Async_Await/167_ACLogin.js
+node chapter_20_Export_Import/01_EXPORT_IMPORT/168_Export_Import.js
+node chapter_20_Export_Import/01_EXPORT_IMPORT/169_Utils.js
+node chapter_20_Export_Import/01_EXPORT_IMPORT/170_Logger.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/171_Class_Object.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/172_Class_Object.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/173_Car.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/174_Real_Browser.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/175_IQ.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/176_Private_Public.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/177_Static.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/178_Static.js
+node chapter_20_Export_Import/02_CLASS_OBJECT/Task_22nd_Jun.js
 ```
 
 ### Running Playwright Tests
