@@ -25,7 +25,7 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_17_Promise` | Promises: creation, resolve/reject, real-world API calls, `finally`, `Promise.all`, interview questions |
 | `chapter_18_Async_Await` | Async/await: syntax, error handling, sequential & parallel execution, real-world examples, interview questions |
 | `chapter_19_Playwright_Basics` | Playwright basics: TypeScript setup, e2e tests, first specs |
-| `chapter_20_Export_Import` | ES modules: export/import, default vs named exports, classes, objects, static methods |
+| `chapter_20_Export_Import` | ES modules: export/import, default vs named exports, classes, objects, encapsulation, inheritance, polymorphism, interview questions |
 | `tests/` | Root-level Playwright TypeScript test specs |
 | `e2e/` | Root-level end-to-end Playwright test specs |
 
@@ -206,7 +206,11 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Objects from classes** – `new` keyword, `this` binding
 - **Private/Public fields** – encapsulation in JavaScript classes
 - **Static methods** – class-level methods and properties
-- **Real-world browser example** – applying OOP to Playwright-style automation
+- **Encapsulation** – data hiding, getters/setters, real-world examples (Bank, Car)
+- **Inheritance** – single, multiple, multilevel, hierarchical inheritance, `extends` keyword
+- **Page Object Model (POM)** – real-world Playwright-style POM using inheritance
+- **Polymorphism** – method overriding, runtime polymorphism
+- **Interview questions** – OOP concept exercises and tricky scenarios
 
 ## Getting Started
 
@@ -299,6 +303,25 @@ node chapter_20_Export_Import/02_CLASS_OBJECT/176_Private_Public.js
 node chapter_20_Export_Import/02_CLASS_OBJECT/177_Static.js
 node chapter_20_Export_Import/02_CLASS_OBJECT/178_Static.js
 node chapter_20_Export_Import/02_CLASS_OBJECT/Task_22nd_Jun.js
+node chapter_20_Export_Import/03_ENCAPSULATION/179_Encp.js
+node chapter_20_Export_Import/03_ENCAPSULATION/180_Real_Example.js
+node chapter_20_Export_Import/03_ENCAPSULATION/181_Ecap_Car.js
+node chapter_20_Export_Import/03_ENCAPSULATION/182_ECap_Bank.js
+node chapter_20_Export_Import/04_INHERITANCE/183_Single_Inheritance.js
+node chapter_20_Export_Import/04_INHERITANCE/184_SI_Example.js
+node chapter_20_Export_Import/04_INHERITANCE/185_Single_Inheritance_Con.js
+node chapter_20_Export_Import/04_INHERITANCE/186_IQ.js
+node chapter_20_Export_Import/04_INHERITANCE/187_IQ2.js
+node chapter_20_Export_Import/04_INHERITANCE/188_REAL_PageObject_Model.js
+node chapter_20_Export_Import/04_INHERITANCE/189_Multiple_Inheritance.js
+node chapter_20_Export_Import/04_INHERITANCE/190_Multiple_Level_Inheritance.js
+node chapter_20_Export_Import/04_INHERITANCE/191_Hierarchial_Inheritance.js
+node chapter_20_Export_Import/05_Polymorphism/192_Method_Overriding.js
+node chapter_20_Export_Import/Interview_Questions/Ex1.js
+node chapter_20_Export_Import/Interview_Questions/EX2.js
+node chapter_20_Export_Import/Interview_Questions/EX3.js
+node chapter_20_Export_Import/Interview_Questions/EX4.js
+node chapter_20_Export_Import/Interview_Questions/EX5.js
 ```
 
 ### Running Playwright Tests
