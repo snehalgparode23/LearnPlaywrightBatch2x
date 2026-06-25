@@ -25,7 +25,12 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_17_Promise` | Promises: creation, resolve/reject, real-world API calls, `finally`, `Promise.all`, interview questions |
 | `chapter_18_Async_Await` | Async/await: syntax, error handling, sequential & parallel execution, real-world examples, interview questions |
 | `chapter_19_Playwright_Basics` | Playwright basics: TypeScript setup, e2e tests, first specs |
-| `chapter_20_Export_Import` | ES modules: export/import, default vs named exports, classes, objects, encapsulation, inheritance, polymorphism, interview questions |
+| `chapter_20_Export_Import` | ES modules: export/import, default vs named exports, import aliases |
+| `chapter_21_CLASS_OBJECT` | Classes and objects: syntax, constructors, attributes, methods, private/public fields, static methods |
+| `chapter_22_ENCAPSULATION` | Encapsulation: data hiding, getters/setters, real-world examples (Bank, Car) |
+| `chapter_23_INHERITANCE` | Inheritance: single, multiple, multilevel, hierarchical, `extends` keyword, Page Object Model (POM) |
+| `chapter_24_Polymorphism` | Polymorphism: method overriding, runtime polymorphism |
+| `chapter_25_Interview_Questions` | OOP interview questions and tricky scenarios |
 | `tests/` | Root-level Playwright TypeScript test specs |
 | `e2e/` | Root-level end-to-end Playwright test specs |
 
@@ -197,20 +202,39 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **E2E test specs** – writing first Playwright tests in TypeScript
 - **Root-level tests** – `tests/` and `e2e/` directories with `.spec.ts` files
 
-### Chapter 20 – Export/Import & Classes/Objects
+### Chapter 20 – Export/Import
 - **Named exports** – `export` with exact names, multiple exports per file
 - **Default exports** – `export default`, single main export per file
 - **Import aliases** – renaming imports with `as`
 - **Mixed exports** – combining default and named in one file
-- **Classes** – `class` syntax, constructors, attributes, methods
+
+### Chapter 21 – Classes & Objects
+- **Class syntax** – `class`, constructors, attributes, methods
 - **Objects from classes** – `new` keyword, `this` binding
 - **Private/Public fields** – encapsulation in JavaScript classes
 - **Static methods** – class-level methods and properties
-- **Encapsulation** – data hiding, getters/setters, real-world examples (Bank, Car)
-- **Inheritance** – single, multiple, multilevel, hierarchical inheritance, `extends` keyword
+- **Real-world browser example** – applying OOP to Playwright-style automation
+
+### Chapter 22 – Encapsulation
+- **Data hiding** – restricting direct access to object properties
+- **Getters & Setters** – controlled property access
+- **Real-world examples** – Bank account, Car encapsulation patterns
+
+### Chapter 23 – Inheritance
+- **Single inheritance** – one parent, one child with `extends`
+- **Constructor inheritance** – `super()` keyword usage
+- **Multiple inheritance** – JavaScript patterns and limitations
+- **Multilevel inheritance** – grandparent → parent → child chains
+- **Hierarchical inheritance** – one parent, multiple children
 - **Page Object Model (POM)** – real-world Playwright-style POM using inheritance
-- **Polymorphism** – method overriding, runtime polymorphism
-- **Interview questions** – OOP concept exercises and tricky scenarios
+
+### Chapter 24 – Polymorphism
+- **Method overriding** – child class redefining parent methods
+- **Runtime polymorphism** – dynamic method dispatch
+
+### Chapter 25 – Interview Questions
+- **OOP concept exercises** – practical coding challenges
+- **Tricky scenarios** – edge cases and common pitfalls
 
 ## Getting Started
 
@@ -294,34 +318,34 @@ node chapter_18_Async_Await/167_ACLogin.js
 node chapter_20_Export_Import/01_EXPORT_IMPORT/168_Export_Import.js
 node chapter_20_Export_Import/01_EXPORT_IMPORT/169_Utils.js
 node chapter_20_Export_Import/01_EXPORT_IMPORT/170_Logger.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/171_Class_Object.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/172_Class_Object.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/173_Car.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/174_Real_Browser.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/175_IQ.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/176_Private_Public.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/177_Static.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/178_Static.js
-node chapter_20_Export_Import/02_CLASS_OBJECT/Task_22nd_Jun.js
-node chapter_20_Export_Import/03_ENCAPSULATION/179_Encp.js
-node chapter_20_Export_Import/03_ENCAPSULATION/180_Real_Example.js
-node chapter_20_Export_Import/03_ENCAPSULATION/181_Ecap_Car.js
-node chapter_20_Export_Import/03_ENCAPSULATION/182_ECap_Bank.js
-node chapter_20_Export_Import/04_INHERITANCE/183_Single_Inheritance.js
-node chapter_20_Export_Import/04_INHERITANCE/184_SI_Example.js
-node chapter_20_Export_Import/04_INHERITANCE/185_Single_Inheritance_Con.js
-node chapter_20_Export_Import/04_INHERITANCE/186_IQ.js
-node chapter_20_Export_Import/04_INHERITANCE/187_IQ2.js
-node chapter_20_Export_Import/04_INHERITANCE/188_REAL_PageObject_Model.js
-node chapter_20_Export_Import/04_INHERITANCE/189_Multiple_Inheritance.js
-node chapter_20_Export_Import/04_INHERITANCE/190_Multiple_Level_Inheritance.js
-node chapter_20_Export_Import/04_INHERITANCE/191_Hierarchial_Inheritance.js
-node chapter_20_Export_Import/05_Polymorphism/192_Method_Overriding.js
-node chapter_20_Export_Import/Interview_Questions/Ex1.js
-node chapter_20_Export_Import/Interview_Questions/EX2.js
-node chapter_20_Export_Import/Interview_Questions/EX3.js
-node chapter_20_Export_Import/Interview_Questions/EX4.js
-node chapter_20_Export_Import/Interview_Questions/EX5.js
+node chapter_21_CLASS_OBJECT/171_Class_Object.js
+node chapter_21_CLASS_OBJECT/172_Class_Object.js
+node chapter_21_CLASS_OBJECT/173_Car.js
+node chapter_21_CLASS_OBJECT/174_Real_Browser.js
+node chapter_21_CLASS_OBJECT/175_IQ.js
+node chapter_21_CLASS_OBJECT/176_Private_Public.js
+node chapter_21_CLASS_OBJECT/177_Static.js
+node chapter_21_CLASS_OBJECT/178_Static.js
+node chapter_21_CLASS_OBJECT/Task_22nd_Jun.js
+node chapter_22_ENCAPSULATION/179_Encp.js
+node chapter_22_ENCAPSULATION/180_Real_Example.js
+node chapter_22_ENCAPSULATION/181_Ecap_Car.js
+node chapter_22_ENCAPSULATION/182_ECap_Bank.js
+node chapter_23_INHERITANCE/183_Single_Inheritance.js
+node chapter_23_INHERITANCE/184_SI_Example.js
+node chapter_23_INHERITANCE/185_Single_Inheritance_Con.js
+node chapter_23_INHERITANCE/186_IQ.js
+node chapter_23_INHERITANCE/187_IQ2.js
+node chapter_23_INHERITANCE/188_REAL_PageObject_Model.js
+node chapter_23_INHERITANCE/189_Multiple_Inheritance.js
+node chapter_23_INHERITANCE/190_Multiple_Level_Inheritance.js
+node chapter_23_INHERITANCE/191_Hierarchial_Inheritance.js
+node chapter_24_Polymorphism/192_Method_Overriding.js
+node chapter_25_Interview_Questions/Ex1.js
+node chapter_25_Interview_Questions/EX2.js
+node chapter_25_Interview_Questions/EX3.js
+node chapter_25_Interview_Questions/EX4.js
+node chapter_25_Interview_Questions/EX5.js
 ```
 
 ### Running Playwright Tests
