@@ -31,6 +31,8 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_23_INHERITANCE` | Inheritance: single, multiple, multilevel, hierarchical, `extends` keyword, Page Object Model (POM) |
 | `chapter_24_Polymorphism` | Polymorphism: method overriding, runtime polymorphism |
 | `chapter_25_Interview_Questions` | OOP interview questions and tricky scenarios |
+| `chapter_26_Typescript` | TypeScript basics: types, variables, functions, type annotations, interview questions |
+| `chapter_27_TypeScript_Interface` | TypeScript interfaces: structure, readonly, optional properties |
 | `tests/` | Root-level Playwright TypeScript test specs |
 | `e2e/` | Root-level end-to-end Playwright test specs |
 
@@ -236,6 +238,19 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **OOP concept exercises** – practical coding challenges
 - **Tricky scenarios** – edge cases and common pitfalls
 
+### Chapter 26 – TypeScript Basics
+- **Type annotations** – `string`, `number`, `boolean`, `any`, `void`
+- **Function types** – typed parameters and return values
+- **Variables with types** – declaring typed variables
+- **Type inference** – how TypeScript infers types automatically
+- **Interview questions** – common TypeScript type-related scenarios
+
+### Chapter 27 – TypeScript Interfaces
+- **Interface basics** – defining object shapes with `interface`
+- **Optional properties** – `?` syntax for optional fields
+- **Readonly properties** – `readonly` modifier for immutable fields
+- **Real-world examples** – test case interfaces, API response shapes
+
 ## Getting Started
 
 1. Clone the repository
@@ -346,6 +361,18 @@ node chapter_25_Interview_Questions/EX2.js
 node chapter_25_Interview_Questions/EX3.js
 node chapter_25_Interview_Questions/EX4.js
 node chapter_25_Interview_Questions/EX5.js
+npx ts-node chapter_26_Typescript/193_TS.js
+npx ts-node chapter_26_Typescript/194_TS_HelloWorld.ts
+npx ts-node chapter_26_Typescript/195_TS_Part1.ts
+npx ts-node chapter_26_Typescript/196_TS_Part2.ts
+npx ts-node chapter_26_Typescript/197_TS_Part2.ts
+npx ts-node chapter_26_Typescript/198_Part3.ts
+npx ts-node chapter_26_Typescript/199_IQ.ts
+npx ts-node chapter_26_Typescript/200_IQ.ts
+npx ts-node chapter_27_TypeScript_Interface/201_IF.ts
+npx ts-node chapter_27_TypeScript_Interface/202_IF_Part2.ts
+npx ts-node chapter_27_TypeScript_Interface/203_IF_READONLY.ts
+npx ts-node chapter_27_TypeScript_Interface/204_IF_READOnly.ts
 ```
 
 ### Running Playwright Tests
