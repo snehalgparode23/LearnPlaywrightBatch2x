@@ -32,7 +32,10 @@ A learning project for Playwright automation testing with JavaScript fundamental
 | `chapter_24_Polymorphism` | Polymorphism: method overriding, runtime polymorphism |
 | `chapter_25_Interview_Questions` | OOP interview questions and tricky scenarios |
 | `chapter_26_Typescript` | TypeScript basics: types, variables, functions, type annotations, interview questions |
-| `chapter_27_TypeScript_Interface` | TypeScript interfaces: structure, readonly, optional properties |
+| `chapter_27_TypeScript_Interface` | TypeScript interfaces: structure, readonly, optional properties, class interfaces, real-world examples |
+| `chapter_28_ENUM` | TypeScript enums: numeric, string, heterogeneous, functions with enums, API status enums |
+| `chapter_29_TypeScript_Generic` | TypeScript generics: generic functions, generic classes, API response typing |
+| `chapter_30_PRIVATE_PUBLIC_PROTECTED` | Access modifiers: `private`, `public`, `protected`, `readonly`, abstract classes, POM with access modifiers |
 | `tests/` | Root-level Playwright TypeScript test specs |
 | `e2e/` | Root-level end-to-end Playwright test specs |
 
@@ -250,6 +253,30 @@ A learning project for Playwright automation testing with JavaScript fundamental
 - **Optional properties** – `?` syntax for optional fields
 - **Readonly properties** – `readonly` modifier for immutable fields
 - **Real-world examples** – test case interfaces, API response shapes
+- **Class interfaces** – implementing interfaces in classes
+- **Bug report interfaces** – structured bug report typing
+- **Test config interfaces** – configuration object typing
+- **Hooks interfaces** – before/after hook typing patterns
+
+### Chapter 28 – TypeScript Enums
+- **Enum basics** – numeric and string enums
+- **Enum functions** – using enums in functions
+- **Heterogeneous enums** – mixing string and numeric values
+- **API status enums** – real-world test status enums (PASS, FAIL, SKIP, PENDING, BLOCKED)
+
+### Chapter 29 – TypeScript Generics
+- **Generic functions** – `function getFirstResult<T>(results: T[])`
+- **Generic classes** – reusable class patterns with type parameters
+- **API response typing** – typing dynamic API responses with generics
+- **Non-null assertion** – `!` operator usage
+
+### Chapter 30 – Access Modifiers & Abstract Classes
+- **Public** – accessible from anywhere
+- **Private** – accessible only within the class
+- **Protected** – accessible within class and subclasses
+- **Readonly** – immutable properties
+- **Abstract classes** – base classes that cannot be instantiated
+- **Page Object Model with access modifiers** – applying `private`/`protected`/`public` to POM
 
 ## Getting Started
 
@@ -373,6 +400,23 @@ npx ts-node chapter_27_TypeScript_Interface/201_IF.ts
 npx ts-node chapter_27_TypeScript_Interface/202_IF_Part2.ts
 npx ts-node chapter_27_TypeScript_Interface/203_IF_READONLY.ts
 npx ts-node chapter_27_TypeScript_Interface/204_IF_READOnly.ts
+npx ts-node chapter_27_TypeScript_Interface/205_Interface.ts
+npx ts-node chapter_27_TypeScript_Interface/206_Hooks.ts
+npx ts-node chapter_27_TypeScript_Interface/207_BugReport.ts
+npx ts-node chapter_27_TypeScript_Interface/208_TestConfig.ts
+npx ts-node chapter_27_TypeScript_Interface/209_REAL_EXAMPLE.ts
+npx ts-node chapter_27_TypeScript_Interface/210_Class_Interface.ts
+npx ts-node chapter_28_ENUM/211_ENUM.ts
+npx ts-node chapter_28_ENUM/212_Enum_Fn.ts
+npx ts-node chapter_28_ENUM/213_ENUM.ts
+npx ts-node chapter_28_ENUM/214_API_.ts
+npx ts-node chapter_29_TypeScript_Generic/215_Generic.ts
+npx ts-node chapter_29_TypeScript_Generic/216_Generic_Class.ts
+npx ts-node chapter_29_TypeScript_Generic/217_Generic_API_RESPONSE.ts
+npx ts-node chapter_30_PRIVATE_PUBLIC_PROTECTED/218_PPP.ts
+npx ts-node chapter_30_PRIVATE_PUBLIC_PROTECTED/219_PageObjectModel.ts
+npx ts-node chapter_30_PRIVATE_PUBLIC_PROTECTED/220_READONLY.ts
+npx ts-node chapter_30_PRIVATE_PUBLIC_PROTECTED/221_Abstract_Class.ts
 ```
 
 ### Running Playwright Tests
